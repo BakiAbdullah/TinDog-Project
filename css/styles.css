@@ -1,0 +1,162 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Heading-Section */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 4rem 0 2.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Color sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#footer .container-fluid {
+  padding: 4% 15%;
+}
+ /* Navigation Section */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+
+.btn-dark {
+  background-color: #282525;
+}
+
+.iphone6 {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+}
+/*/////////// MEDIA Queries Impliment///////// */
+
+@media (max-width: 1028px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  padding: 4%;
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.icon:hover {
+  color: #ff4c64;
+  cursor: pointer;
+}
+
+.ftc {
+  padding: 4% 0;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+ /* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#cta {
+  margin-top: 4%;
+}
+ /* Footer Section */
+ 
+.footer-icon {
+  margin: 10px;
+  color: #ff4c68;
+}
+
+.footer-icon:hover {
+  cursor: pointer;
+  color: #000;
+}
